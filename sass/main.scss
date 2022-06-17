@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+    width: 8px;
+    &-track {
+        background: #000000;
+    }
+    &-thumb {
+        background: #01c38cb9;
+    
+    }
+}
+
+.cuerpo{
+    background: rgb(74,201,192);
+    background: linear-gradient(0deg, rgba(74,201,192,1) 0%, rgba(0,0,0,1) 90%);
+    .subtitulo {
+        text-align: center;
+        background: transparent;
+        text-transform: capitalize;
+        font-family: 'Tai Heritage Pro', serif;
+    }
+    .Sologo {
+        margin: 0;
+        padding: 0%;
+        background: transparent;
+    }
+    .carrusel {
+        display: flex;
+        width: 100%;
+        height: 40%;
+    
+        justify-content: center;
+        .tamaño-imgs {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            }
+    }
+    
+}

@@ -1,0 +1,26 @@
+{
+  "name": "entrega-final-2",
+  "version": "1.0.0",
+  "description": "agregado de sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "build-css": "node-sass --incluide-path scss sass/main.scss cssRhino/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maximo17711/entrega-final-2-.git"
+  },
+  "author": "Maximo Mazzocato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maximo17711/entrega-final-2-/issues"
+  },
+  "homepage": "https://github.com/Maximo17711/entrega-final-2-#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
