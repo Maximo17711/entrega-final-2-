@@ -9,98 +9,248 @@
     <link rel="stylesheet" href="./css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../cssRhino/Rhino.css">
+    <link rel="stylesheet" href="../cssRhino/nuestrasmuestras.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Smooch&family=Tai+Heritage+Pro&display=swap"
         rel="stylesheet">
-        <meta name="description" content="Concesionario de autos 0km"> 
+    <meta name="description" content="Concesionario de autos 0km">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="../imagenes/favicon.jpg">
 </head>
 
-<body>
-    <nav class="navbar navbar-black bg-black Sologo">
+<body class="cuerpo">
+    <nav class="navbar navbar-black navbar-expand-md bg-black Sologo">
         <div class="container-fluid Sologo">
+            <button class="navbar-toggler bg-success p-1 m-4 mb-3 " type="button" data-bs-toggle="collapse"
+                data-bs-target="#menu" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <a class="navbar-brand" href="../index.html">
                 <img src="https://i.pinimg.com/236x/1a/8c/ea/1a8cea7038b26cd1dda651bace69ddcb.jpg" alt="" width="85"
                     height="60" class />
             </a>
-
-            <ul class="nav justify-content-end nav-pills" <li class="nav-item">
-                <a class="nav-link link-light" aria-current="page" href="../htmls/asociado.html">Asociados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light" href="../htmls/destacado.html">destacados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light" href="../htmls/SobreNosotros.html">Sobre Nosotros</s></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle activate link-dark bg-light" href="#" id="navbarDropdown" |
-                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        nuestras Muestras
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">peugeot</a></li>
-                        <li><a class="dropdown-item" href="#">volkswagen</a></li>
-                        <li>
-                            <hr class="dropdown-divider" />
-                        </li>
-                        <li><a class="dropdown-item" href="#">Mercedes-benz</a></li>
-                        <li><a class="dropdown-item" href="#">Audi</a></li>
-                        <li>
-                            <hr class="dropdown-divider" />
-                        </li>
-                        <li><a class="dropdown-item" href="#">porsche</a></li>
-                        <li><a class="dropdown-item" href="#">ferrari</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav justify-content-end nav-pills">
+                    <li class="nav-item col-12 col-md-auto p-3 md-3">
+                        <a class="nav-link link-light" aria-current="page" href="./asociado.html">Asociados</a>
+                    </li>
+                    <li class="nav-item col-12 col-md-auto p-3">
+                        <a class="nav-link link-light" href="./destacado.html">destacados</a>
+                    </li>
+                    <li class="nav-item col-12 col-md-auto p-3">
+                        <a class="nav-link link-light" href="./SobreNosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item col-12 col-md-auto p-3">
+                        <a class="nav-link link-light" href="./nuestrasMuestras.html">Nuestras Muestras</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <div>
-        <h1>
-            aca podras ver nuestros vehiculos a disposicion 
-        </h1>
-    </div>
-    <footer class="mt-5">
+    <section>
+        <div class="titulo">
+            <h1>
+                Algunos de nuestros vehiculos a disposicion
+            </h1>
+        </div>
+        <!-- termina el header con el titulo y empiezan las cartas-->
+        <div class="cartas">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card img-InfoCartas">
+                        <img src="../imagenes/audiA3.jpg" class="card-img-top img-carta" alt="Audi a3">
+                        <div class="card-body">
+                            <h5 class="card-title cartas">Audi A3 (2022)</h5>
+                            <p class="card-text cartas">se trata de uno de los modelos más importantes de la marca
+                                alemana.
+                                Actualmente se comercializa la cuarta generación, presentada en 2020, que renueva su
+                                diseño
+                                interior y exterior, actualiza su gama de motores con nuevas opciones y añade
+                                importantes
+                                novedades en infoentretenimiento y asistencias a la conducción. </p>
+                            <a href="https://audiinsurgentes.mx/files/pdf/A3-audi_ficha-tecnica_MY-2022.pdf"
+                                class="btn btn-cartas">
+                                <p>Ficha tecnica</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card img-InfoCartas ">
+                        <img src="../imagenes/BMW-M5.jpg" class="card-img-top img-carta" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title cartas">BMW M5 CS</h5>
+                            <p class="card-text cartas">Sin duda uno de los aspectos claves de esta versión es el motor,
+                                un
+                                V8 Twin Power Turbo de 4.4 litros que gracias a las mejoras recibidas es capaz de
+                                arrojar
+                                sobre el asfalto nada menos que 635 caballos de potencia y 750 Nm de par máximo. Toda
+                                esta
+                                potencia se trasladada a ambos ejes mediante una caja de cambios automática de ocho
+                                velocidades</p>
+                            <a href="https://www.bmw.com.mx/es/modelos/autos-bmw-serie-m/m5-sedan/2021/datos-tecnicos.html#tab-0"
+                                class="btn btn-cartas">
+                                <p>Ficha tecnica</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col Borde-Cartas">
+                    <div class="card img-InfoCartas ">
+                        <img src="../imagenes/mercedes-benz amg g63.jpg" class="card-img-top img-carta" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title cartas">Mercedes-Benz amg G63</h5>
+                            <p class="card-text cartas">Mercedes-AMG G ratifica su puesto como vehículo todoterreno.
+                                Donde
+                                sea que muestre la cara, dejará en claro por qué es la mejor todoterreno de su segmento.
+                                Su
+                                pasión, perfección y poder hacen que cada viaje se sienta como una victoria. El
+                                auténtico
+                                dinamismo que transmiten los genes típicos de AMG supera todas las expectativas.</p>
+                            <a href="https://www.auto10.com/mercedes-benz/amg-g-63-585/ficha-tecnica"
+                                class="btn btn-cartas">
+                                <p>Ficha tecnica</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col Borde-Cartas">
+                    <div class="card img-InfoCartas ">
+                        <img src="../imagenes/Aston Martin.jpg" class="card-img-top img-carta" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title cartas">Aston Martin Vantage</h5>
+                            <p class="card-text cartas">El Aston Martin Vantage es el deportivo biplaza de acceso del
+                                fabricante británico Aston Martin, comercializado desde 2005. Actualmente se fabrica la
+                                segunda generación, presentada en 2017. presume de un reparto de pesos perfecto, un
+                                chasis
+                                ligero y un motor V8 Biturbo de origen Mercedes-AMG de 510 CV.</p>
+                            <a href="https://www.auto-data.net/es/aston-martin-v8-vantage-roadster-2018-f1-edition-4.0-v8-535hp-automatic-42549"
+                                class="btn btn-cartas">
+                                <p>Ficha tecnica</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col Borde-Cartas">
+                    <div class="card img-InfoCartas ">
+                        <img src="../imagenes/ford mustang mach 1.jpg" class="card-img-top img-carta" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title cartas">Ford Mustang Mach 1</h5>
+                            <p class="card-text cartas">Efectivamente estamos ante el Mustang con más carácter, con
+                                permiso
+                                de los Shelby.
+                                Se trata de una serie limitada aunque Ford no ha anunciado por cuánto tiempo ni cuántas
+                                unidades planea fabricar. esta es la primera vez que se ha puesto a la venta de manera
+                                oficial.</p>
+                            <a href="https://www.ford.com.ar/autos/mustang/models/mustang-mach1/"
+                                class="btn btn-cartas">
+                                <p>Ficha tecnica</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col Borde-Cartas">
+                    <div class="card img-InfoCartas ">
+                        <img src="../imagenes/LexusLC-500 2021.jpg" class="card-img-top img-carta" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title cartas">Lexus LC500</h5>
+                            <p class="card-text cartas">El Lexus LC es el gran coupé de Lexus, un modelo que se sitúa
+                                como
+                                el tope de gama de la marca, pero no es un sustituto del icónico Lexus LFA. El Lexus LC
+                                apuesta por un nuevo enfoque, apostando por una filosofía de gran turismo, lujoso y
+                                deportivo, más que de superdeportivo.</p>
+                            <a href="https://www.16valvulas.com.ar/nuevo-lexus-lc500-lanzamiento-en-argentina-desde-us-249-900/"
+                                class="btn btn-cartas">
+                                <p>Ficha tecnica</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="ftr mt-5">
         <div class="container-fluid row">
-            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div>
                     <h3>Sobre Nosotros</h3>
                     <p>Somos una empresa que esta en el mercado hace mas de media decada y somos uno de los
                         concesionarios mas
-                        conocidos de Buenos Aires, vendimos todo tipo de autos entre ellos
+                        conocidos de Buenos Aires, vendimos todo tipo de autos entre ellos</p>
                     <ul>
-                        <li>Suv s</li>
-                        <li>hatchback</li>
-                        <li>sedan</li>
-                        <li>deportivos</li>
-                        ademas de estos, hemos vendido a la mejor calidad nuestros cero kilometros a conocidos como
-                        Susana
-                        gimenez, Marcelo Tinelli, Ricardo Fort, entre otros
+                        <li class=" list-ftr">Suv s</li>
+                        <li class=" list-ftr">hatchback</li>
+                        <li class=" list-ftr">sedan</li>
+                        <li class=" list-ftr">deportivos</li>
                     </ul>
-                    </p>
+
                 </div>
             </div>
-            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
                 <h3>Nuestras redes</h3>
-                <p>por ahora estamos en proceso</p>
+                <div class="redes d-flex justify-content-center">
+                    <ul class="text-center w-100">
+
+                        <li class="nav-item col-6 col-md-auto col-xs-12 p-2 text-light text-center d-flex">
+                            <i class="bi bi-whatsapp logo-redes">
+                                <a class="text-decoration-none" href="https://web.whatsapp.com/">
+                                    <h6 class="">whatsapp</h6>
+                                </a>
+                            </i>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto col-xs-12 p-3 text-light text-center">
+                            <i class="bi bi-facebook logo-redes">
+                                <a class=" text-decoration-none" href="https://es-la.facebook.com/">
+                                    <h6>Facebook</h6>
+                                </a>
+                            </i>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto col-xs-12 p-3 text-light text-center">
+                            <i class="bi bi-youtube logo-redes">
+                                <a class="text-decoration-none" href="https://www.youtube.com">
+                                    <h6> Youtube</h6>
+                                </a>
+                            </i>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto col-xs-12  p-3 text-light text-center">
+                            <i class="bi bi-instagram logo-redes">
+                                <a class=" text-decoration-none" href="https://www.instagram.com/">
+                                    <h6> Instagram</h6>
+                                </a>
+                            </i>
+
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
                 <h3>Navegacion</h3>
                 <ul>
-                    <li><a href="./htmls/asociado.html">Asociado</a></li>
-                    <li><a href="./htmls/destacado.html">destacado</a></li>
-                    <li><a href="./htmls/nuestrasMuestras.html"></a>Nuestras Muestras</li>
-                    <li><a href="./htmls/SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li class="links-footer"><a href="../index.html">inicio</a></li>
+                    <li class="links-footer"><a href="./destacado.html">destacado</a></li>
+                    <li class="links-footer"><a href="./asociado.html">asociado</a></li>
+                    <li class="links-footer"><a href="./SobreNosotros.html">Sobre Nosotros</a></li>
                 </ul>
             </div>
-
         </div>
-
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+
 </body>
 
 </html>

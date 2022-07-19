@@ -1,0 +1,153 @@
+@charset "UTF-8";
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(1, 195, 140, 0.7254901961);
+}
+
+.cuerpo {
+  background: rgb(20, 29, 28);
+  scroll-behavior: smooth;
+}
+.cuerpo p {
+  color: #f1f1f1;
+}
+
+.subtitulo {
+  text-align: center;
+  background: transparent;
+  text-transform: capitalize;
+  font-family: "Tai Heritage Pro", serif;
+}
+
+.Sologo {
+  margin: 0;
+  padding: 0%;
+  background: transparent;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.img-titulo {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.titulo-principal {
+  position: relative;
+}
+
+.titulo {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 20px;
+}
+
+.txt-video {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing: 3px;
+}
+
+.carrusel .tamaño-imgs {
+  height: 550px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.video {
+  width: 100%;
+  height: 350px;
+}
+
+.ftr {
+  background-color: rgb(27, 40, 37);
+  border-radius: 10px;
+  border-style: groove;
+  border: #77c6fc;
+  color: #f1f1f1;
+}
+.ftr .links-footer {
+  list-style: none;
+  margin-top: 20px;
+  text-align: center;
+}
+.ftr .links-footer a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: unset;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ftr .links-footer li i p {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: unset;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+ul .list-ftr {
+  text-decoration: none;
+  color: #a7c1b1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400px;
+  margin-top: 20px;
+}
+
+.list-ftr {
+  text-decoration: none;
+  color: #a7c1b1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400px;
+  margin-top: 20px;
+}
+
+footer div h3 {
+  text-align: center;
+}
+
+.logo-redes {
+  width: 100%;
+  display: flex;
+}
+
+.logo-redes a {
+  padding-left: 1rem;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+@media (max-width: 767.9px) {
+  .video {
+    display: flex;
+    height: 300px;
+  }
+  .txt-video {
+    font-size: 15px;
+  }
+  .carrusel {
+    display: flex;
+    height: 0px;
+    width: 0px;
+  }
+  .img-titulo {
+    height: 350px;
+  }
+}/*# sourceMappingURL=main.css.map */

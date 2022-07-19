@@ -1,63 +1,57 @@
-::-webkit-scrollbar {
-    width: 8px;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 ::-webkit-scrollbar-track {
-    background: #000000;
-}
-
+    background: #000000; }
 ::-webkit-scrollbar-thumb {
-    background: #01c38cb9;
-}
+    background: #01c38cb9; }
 
-body {
+.cuerpo {
     background: rgb(20, 29, 28);
     scroll-behavior: smooth;
     color: azure;
-    width: 99%;
-
 }
 
-.subtitulo-destacados {
-    color: rgb(255, 255, 255);
+.subform {
+    display: flex;
+    margin: 15px;
 }
 
-.imagenes-grillas {
+label {
+display: flex;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    text-size-adjust: 20px;
+}
+
+p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+li input {
+    display: flex;
+    margin-left: 20px;
+}
+
+.mapa {
     width: 100%;
-    height: 100%;
+    height: 300px;  
+    margin: 1rem;
 }
 
-h5 {
-    color: #000000;
-}
-
-div p {
-    color: #dedede;
-}
-
-.p-De-btn {
-color: #000000;
-}
-
-.cartas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.btn-cartas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    color: aliceblue;
-    background-color: rgb(65, 98, 94);
-    font-size: 20px;
-    width: 70%;
-    height: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 10px;
+.img {
+    width: 100%;
+    height: 425px;
+    margin: 1rem;
 }
 
 .ftr {
@@ -79,6 +73,7 @@ color: #000000;
     font-style: unset;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .ftr .links-footer li i p {
     text-decoration: none;
     color: #ffffff;
@@ -90,6 +85,7 @@ color: #000000;
 ul {
     list-style-type: none;
 }
+
 ul .list-ftr {
     text-decoration: none;
     color: #a7c1b1;
@@ -104,7 +100,8 @@ ul .list-ftr {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400px;
     margin-top: 20px;
-}  
+}
+
 footer div h3 {
     text-align: center;
 }
@@ -118,4 +115,11 @@ footer div h3 {
     padding-left: 1rem;
     text-decoration: none;
     color: #f1f1f1;
+}
+@media (max-width: 767.9px) {
+    .img{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
 }
